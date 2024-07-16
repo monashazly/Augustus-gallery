@@ -1,3 +1,3 @@
 <template>
-    details
+    hiiii detail
 </template>
