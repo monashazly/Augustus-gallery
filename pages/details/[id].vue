@@ -1,3 +1,5 @@
-<template>
-    hiiii detail
+<template >
+    <div class="text-white">
+        hiiii detail
+    </div>
 </template>

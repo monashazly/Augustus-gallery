@@ -7,6 +7,8 @@ const props = defineProps({
 </script>
 
 
-<template>
-    {{ album.title }}
+<template >
+    <div class="bg-white rounded-md">
+        {{ album.title }}
+    </div>
 </template>
