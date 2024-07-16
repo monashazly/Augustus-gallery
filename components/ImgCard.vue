@@ -9,6 +9,6 @@ const props = defineProps({
 
 <template>
     <div class="rounded-md overflow-hidden hover:scale-110 transition">
-        <NuxtImg  :src="img.url" :alt="img.title" />
+        <NuxtImg  class="w-full h-full" :src="img.url" :alt="img.title" />
     </div>
 </template>
