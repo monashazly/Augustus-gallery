@@ -2,7 +2,7 @@
 
 const props = defineProps({
     img: {
-        type: String
+        type: Object
     }
 })
 </script>
