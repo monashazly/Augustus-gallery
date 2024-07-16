@@ -12,7 +12,7 @@ console.log('pghots' , photos)
 </script>
 
 <template >
-    <div class="bg-[#d8d8d8] py-20">
+    <div class="bg-black py-20">
         <h1 class="text-center text-white text-8xl font-bold ">
             PHOTO GALLERY  
         </h1>
@@ -20,7 +20,7 @@ console.log('pghots' , photos)
             {{ photos.title  }}
         </h5>
     </div>
-    <div class=" grid grid-cols-3 gap-5 p-10">
+    <div class="  grid 2xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-5 p-10">
        <ImgCard v-for="img in photos.photos.data" :key="img.id" :img="img"/>
     </div>
 </template>
