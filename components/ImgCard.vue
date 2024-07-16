@@ -8,7 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="rounded-md overflow-hidden hover:scale-110 transition">
+    <div class="rounded-md overflow-hidden hover:scale-105 transition shadow-md">
         <NuxtImg  class="w-full h-full" :src="img.url" :alt="img.title" />
     </div>
 </template>
