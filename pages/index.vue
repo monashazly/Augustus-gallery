@@ -28,6 +28,8 @@ const { data } = await useAsyncQuery(query)
 const albums = ref(data.value.albums.data)
 store.albums = albums.value
 
+console.log('store.albums' , store.albums)
+
 </script>
 
 <template>
