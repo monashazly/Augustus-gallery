@@ -5,14 +5,12 @@ const route = useRoute();
 const id = route.params.id
 const photos = ref([])
 
-photos.value =  store.albums.find((album)=> album.id === id )
-
-console.log('pghots' , photos)
+photos.value =  store.albums.find((album) => album.id === id )
 
 </script>
 
 <template >
-    <div class="bg-black py-20">
+    <div class="bg-gradient-to-r from-black to-[#6d6d6d] py-20">
         <h1 class="text-center text-white text-8xl font-bold ">
             PHOTO GALLERY  
         </h1>

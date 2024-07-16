@@ -33,7 +33,7 @@ console.log('store.albums' , store.albums)
 </script>
 
 <template>
-    <div class=" bg-black p-10">
+    <div class=" bg-gradient-to-r from-black to-[#6d6d6d] p-10">
         <h1 class="text-center text-white text-8xl font-bold py-20">
             GALLERY
         </h1>
@@ -41,7 +41,7 @@ console.log('store.albums' , store.albums)
             <NuxtLink v-for="album in albums" 
             :key="album.id" :to="{ name: 'details-id', params: { id: album.id } }">
                 <AlbumGrid 
-                class="hover:scale-110 transition"
+                class="hover:scale-110 transition shadow-md"
                 :album="album" />
             </NuxtLink>
         </div>
