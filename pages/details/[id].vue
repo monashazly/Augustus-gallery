@@ -11,7 +11,7 @@ photos.value =  store.albums.find((album) => album.id === id )
 
 <template >
     <div class="bg-gradient-to-r from-black to-[#6d6d6d] py-20">
-        <h1 class="text-center text-white text-8xl font-bold ">
+        <h1 class="text-center text-white md:text-8xl text-5xl font-bold ">
             PHOTO GALLERY  
         </h1>
         <h5 class="text-center text-white text-xl font-bold mt-5" >
